@@ -1,0 +1,12 @@
+.log-list {
+  display: flex;
+  /* Flexible Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性。设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。 */
+  flex-direction: column;
+  /* 纵向排列 */
+  padding: 40rpx;
+  /* 内边距 */
+}
+.log-item {
+  margin: 10rpx;
+  /* 外边距 */
+}
